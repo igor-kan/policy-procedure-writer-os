@@ -1,0 +1,9 @@
+procedure,step_number,step,owner
+New User Onboarding,1,Create account in identity provider,TBD
+New User Onboarding,2,Assign role-based groups,TBD
+New User Onboarding,3,Enroll in MFA,TBD
+New User Onboarding,4,Record onboarding evidence in ticket,TBD
+Incident Triage,1,Validate signal and scope,TBD
+Incident Triage,2,Assign severity,TBD
+Incident Triage,3,Notify on-call owner,TBD
+Incident Triage,4,Document mitigation and closure actions,TBD

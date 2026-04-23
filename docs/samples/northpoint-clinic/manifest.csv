@@ -1,0 +1,5 @@
+type,title,path
+policy,Access Control Policy,docs/samples/northpoint-clinic/policies/access-control-policy.md
+policy,Incident Response Policy,docs/samples/northpoint-clinic/policies/incident-response-policy.md
+procedure,New User Onboarding,docs/samples/northpoint-clinic/procedures/new-user-onboarding.md
+procedure,Incident Triage,docs/samples/northpoint-clinic/procedures/incident-triage.md
