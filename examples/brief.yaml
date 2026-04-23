@@ -1,0 +1,30 @@
+organization: Northpoint Clinic
+policies:
+  - title: Access Control Policy
+    purpose: Limit access to systems and patient records by role.
+    scope: All staff, contractors, and service providers.
+    controls:
+      - Unique user credentials required
+      - MFA required for admin roles
+      - Quarterly access reviews
+  - title: Incident Response Policy
+    purpose: Provide a repeatable response process for security incidents.
+    scope: All production systems and customer data assets.
+    controls:
+      - Define severity matrix
+      - Escalation within 30 minutes for critical incidents
+procedures:
+  - title: New User Onboarding
+    trigger: Approved hiring ticket
+    steps:
+      - Create account in identity provider
+      - Assign role-based groups
+      - Enroll in MFA
+      - Record onboarding evidence in ticket
+  - title: Incident Triage
+    trigger: Security alert created
+    steps:
+      - Validate signal and scope
+      - Assign severity
+      - Notify on-call owner
+      - Document mitigation and closure actions
